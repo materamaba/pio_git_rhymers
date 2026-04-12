@@ -22,6 +22,7 @@ class RhymersDemo {
         for (int i = 1; i < 15; i++)
             rhymers[3].countIn(rn.nextInt(20));
         
+        // TODO: zastąpić pętlę for z iteratorem na pętlę foreach dla tablic
         for (int i = 0; i < rhymers.length; i++) {
             while (!rhymers[i].callCheck())
                 System.out.print(rhymers[i].countOut() + "  ");

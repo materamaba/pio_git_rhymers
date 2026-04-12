@@ -8,6 +8,7 @@ public class IntLinkedList {
 
     public static final int EMPTY_RETURN = -1;
     private Node last;
+    // TODO: usunąć nieużywane pole 'i', ponieważ generuje ostrzeżenia
     private int i;
 
     private class Node {
